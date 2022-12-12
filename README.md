@@ -10,4 +10,4 @@
 >* 첫 인공지능 프로젝트로 인한 성취감을 얻기 위함입니다.
 
 # Blog
-[프로젝트 블로그 정리](https://draw-code-boy.tistory.com/488)
+[Doby's Lab: 프로젝트 블로그 정리](https://draw-code-boy.tistory.com/488)
