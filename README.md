@@ -10,4 +10,9 @@
 >* 첫 인공지능 프로젝트로 인한 성취감을 얻기 위함입니다.
 
 # Blog
-[Doby's Lab: 프로젝트 블로그 정리](https://draw-code-boy.tistory.com/488)
+[Doby's Lab: 프로젝트 ver.1 블로그 정리](https://draw-code-boy.tistory.com/488)
+
+# Version 1
+
+# Version 2
+>* Data Preprocessing을 통한 모델 개선의 목적 (Center Cropping, Normalization)
