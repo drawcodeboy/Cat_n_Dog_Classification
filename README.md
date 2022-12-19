@@ -13,6 +13,9 @@
 [Doby's Lab: 프로젝트 ver.1 블로그 정리](https://draw-code-boy.tistory.com/488)
 
 # Version 1
+1. cat_vs_dog.ipynb
 
 # Version 2
+1. cat_n_dog_data_preprocessing_ver_2.ipynb
+2. 
 >* Data Preprocessing을 통한 모델 개선의 목적 (Center Cropping, Normalization)
