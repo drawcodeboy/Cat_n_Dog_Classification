@@ -18,5 +18,6 @@
 # Version 2 (22.12.19 ~ )
 1. cat_n_dog_data_from_path_ver_2.ipynb
 2. cat_n_dog_data_preprocessing_ver_2.ipynb
+3. cat_n_dog_modeling_ver2.ipynb
 
 >* 메인 목적: Data Preprocessing을 통한 성능 향상
