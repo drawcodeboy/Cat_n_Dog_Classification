@@ -13,11 +13,24 @@
 [Doby's Lab: 프로젝트 ver.1 블로그 정리](https://draw-code-boy.tistory.com/488)
 
 # Version 1 (22.12.05 ~ 22.12.08)
+>* 메인 목적: 데이터셋 가져오기 및 기본적인 Modeling
 1. cat_vs_dog.ipynb
+### Main Issue
+1. 파일(데이터셋)을 어떻게 가져오는가 
+> os 모듈 활용
+2. 가져오는 시간이 너무 느리다 
+> image_dataset_from_directory 활용
 
 # Version 2 (22.12.19 ~ )
+>* 메인 목적: Data Preprocessing을 통한 성능 향상
 1. cat_n_dog_data_from_path_ver_2.ipynb
 2. cat_n_dog_data_preprocessing_ver_2.ipynb
 3. cat_n_dog_modeling_ver2.ipynb
-
->* 메인 목적: Data Preprocessing을 통한 성능 향상
+### Main Issue
+1. 이미지 로드 시간 문제 
+> 하나의 노트북을 통해 데이터를 모두 np.save하여 다른 노트북에서 np.load를 통해 시간적 문제를 해결한다.
+2. Normalization을 하면 uint8에서 float64가 되어 RAM이 다운되어 런타임도 다운된다
+> 분산적으로 로드하여 사용한 데이터셋은 del하여 버리면서 RAM을 효율적으로 사용한다.
+3. 모델의 성능이 낮다
+> 개와 고양이의 특성상 털의 색이라는 특성에서 겹치는 부분이 많을 거라 생각했다.
+> 그래서 Gray Scaling을 해봤지만 train:92.21%, test:50.27%로 심한 Overfitting이 났다.
