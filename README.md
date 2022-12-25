@@ -33,4 +33,4 @@
 > 분산적으로 로드하여 사용한 데이터셋은 del하여 버리면서 RAM을 효율적으로 사용한다.
 3. 모델의 성능이 낮다
 > 개와 고양이의 특성상 털의 색이라는 특성에서 겹치는 부분이 많을 거라 생각했다.
-> 그래서 Gray Scaling을 해봤지만 train:92.21%, test:50.27%로 심한 Overfitting이 났다.
+>* Gray Scaling을 해봤지만 train:92.21%, test:50.27%로 심한 Overfitting이 났다.
