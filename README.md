@@ -14,7 +14,7 @@
 
 # Version 1 (22.12.05 ~ 22.12.08)
 >* 메인 목적: 데이터셋 가져오기 및 기본적인 Modeling
-1. cat_vs_dog.ipynb
+1. ver1_cat_n_dog.ipynb
 ### Main Issue
 1. 파일(데이터셋)을 어떻게 가져오는가 
 > os 모듈 활용
@@ -23,9 +23,9 @@
 
 # Version 2 (22.12.19 ~ )
 >* 메인 목적: Data Preprocessing을 통한 성능 향상
-1. cat_n_dog_data_from_path_ver_2.ipynb
-2. cat_n_dog_data_preprocessing_ver_2.ipynb
-3. cat_n_dog_modeling_ver2.ipynb
+1. ver2(1)_cat_n_dog_data_from_path.ipynb
+2. ver2(2)_cat_n_dog_data_preprocessing.ipynb
+3. ver2(3)_cat_n_dog_modeling.ipynb
 ### Main Issue
 1. 이미지 로드 시간 문제 
 > 하나의 노트북을 통해 데이터를 모두 np.save하여 다른 노트북에서 np.load를 통해 시간적 문제를 해결한다.
