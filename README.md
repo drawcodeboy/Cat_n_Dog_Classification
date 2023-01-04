@@ -38,6 +38,11 @@
 >* 분산적으로 로드하여 사용한 데이터셋은 del하여 버리면서 RAM을 효율적으로 사용한다.
 >* Gray Scaling을 통해 Channel을 3개에서 1개로 줄이며 메모리를 줄인다.
 >* float64가 아닌 float32로 변경하여 메모리를 1/2배 낮춘다.
-3. 모델의 성능이 낮다
-> 개와 고양이의 특성상 털의 색이라는 특성에서 겹치는 부분이 많을 거라 생각했다.
->* Gray Scaling을 해봤지만 train:92.21%, test:50.27%로 심한 Overfitting이 났다.
+3. 학습 과정에 Loss가 거의 0으로 유지 되다가 확 튀는 현상
+>* Dataset Shuffle을 하지 않아서 발생한 문제
+### Overfitting
+> Version 1에서 이미지가 Warping 되어 왜곡된 정보를 학습하기 때문이라 판단
+>* Center cropping을 해봤지만 큰 변화 
+> 개와 고양이의 특성상 털의 색이라는 특성에서 겹치는 부분이 많을 거라 판단
+>* Gray Scaling을 해봤지만 train:92.21%, test:50.27%로 여전히 심한 Overfitting이 났다.
+> 
