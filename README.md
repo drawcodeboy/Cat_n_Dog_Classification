@@ -13,6 +13,7 @@
 [Doby's Lab: Version 1 Description](https://draw-code-boy.tistory.com/488)
 
 # :books: Version 1 (22.12.05 ~ 22.12.08)
+### Test set result : Loss = 0.6844, Accuracy = 55.51%
 >* 메인 목적: 데이터셋 가져오기 및 기본적인 Modeling
 1. ver1_cat_n_dog.ipynb
 ### Main Issue
