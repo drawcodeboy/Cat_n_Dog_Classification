@@ -13,9 +13,11 @@
 [Doby's Lab: Version 1 Description](https://draw-code-boy.tistory.com/488)
 
 # :books: Version 1 (22.12.05 ~ 22.12.08)
-### Test set result : Loss = 0.6844, Accuracy = 55.51%
 >* 메인 목적: 데이터셋 가져오기 및 기본적인 Modeling
+### File List
 1. ver1_cat_n_dog.ipynb
+### Result, Test set
+<b>⭐ Loss = 0.6844, Accuracy = 55.51%</b>
 ### Main Issue
 1. 파일(데이터셋)을 어떻게 가져오는가 
 > os 모듈 활용
@@ -23,9 +25,12 @@
 > image_dataset_from_directory 활용
 
 # :books: Version 2 (22.12.19 ~ 23.01.04)
+### File List
 1. ver2(1)_cat_n_dog_data_from_path.ipynb
 2. ver2(2)_cat_n_dog_data_preprocessing.ipynb
 3. ver2(3)_cat_n_dog_modeling.ipynb
+### Result, Test set
+<b>⭐ Loss = 0.4662, Accuracy = 86.51%</b>
 ### Main Issue
 1. 이미지 로드 시간 문제 
 > 하나의 노트북을 통해 데이터를 모두 np.save하여 다른 노트북에서 np.load를 통해 시간적 문제를 해결한다.
