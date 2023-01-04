@@ -21,8 +21,7 @@
 2. 가져오는 시간이 너무 느리다 
 > image_dataset_from_directory 활용
 
-# :books: Version 2 (22.12.19 ~ )
->* 메인 목적: Data Preprocessing을 통한 성능 향상
+# :books: Version 2 (22.12.19 ~ 23.01.04)
 1. ver2(1)_cat_n_dog_data_from_path.ipynb
 2. ver2(2)_cat_n_dog_data_preprocessing.ipynb
 3. ver2(3)_cat_n_dog_modeling.ipynb
