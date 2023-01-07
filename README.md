@@ -11,6 +11,7 @@
 
 # :page_facing_up: Blog
 [Doby's Lab: Version 1 Description](https://draw-code-boy.tistory.com/488)
+[Doby's Lab: Version 2 Description](https://draw-code-boy.tistory.com/506)
 
 # :books: Version 1 (22.12.05 ~ 22.12.08)
 >* Purpose: 데이터셋 가져오기 및 기본적인 Modeling
@@ -24,6 +25,6 @@
 ### File List
 1. ver2(1)_cat_n_dog_data_from_path.ipynb
 2. ver2(2)_cat_n_dog_data_preprocessing.ipynb
-3. ver2(3)_cat_n_dog_modeling.ipynb
+3. ver2(3)_cat_n_dog_modeling_final.ipynb
 ### Result, Test set
-<b>⭐ Loss = 0.4662, Accuracy = 86.51%</b>
+<b>⭐ Loss = 0.4305, Accuracy = 87.89%</b>
