@@ -18,11 +18,6 @@
 1. ver1_cat_n_dog.ipynb
 ### Result, Test set
 <b>⭐ Loss = 0.6844, Accuracy = 55.51%</b>
-### Main Issue
-1. 파일(데이터셋)을 어떻게 가져오는가 
-> os 모듈 활용
-2. 가져오는 시간이 너무 느리다 
-> image_dataset_from_directory 활용
 
 # :books: Version 2 (22.12.19 ~ 23.01.04)
 ### File List
@@ -31,18 +26,3 @@
 3. ver2(3)_cat_n_dog_modeling.ipynb
 ### Result, Test set
 <b>⭐ Loss = 0.4662, Accuracy = 86.51%</b>
-### Main Issue
-1. 이미지 로드 시간 문제 
-> 하나의 노트북을 통해 데이터를 모두 np.save하여 다른 노트북에서 np.load를 통해 시간적 문제를 해결한다.
-2. Normalization을 하면 uint8에서 float64가 되어 RAM이 다운되어 런타임도 다운된다
->* 분산적으로 로드하여 사용한 데이터셋은 del하여 버리면서 RAM을 효율적으로 사용한다.
->* Gray Scaling을 통해 Channel을 3개에서 1개로 줄이며 메모리를 줄인다.
->* float64가 아닌 float32로 변경하여 메모리를 1/2배 낮춘다.
-3. 학습 과정에 Loss가 거의 0으로 유지 되다가 확 튀는 현상
->* Dataset Shuffle을 하지 않아서 발생한 문제
-### 😰 Overfitting
-> Version 1에서 이미지가 Warping 되어 왜곡된 정보를 학습하기 때문이라 판단
->* Center cropping을 해봤지만 큰 변화 
-> 개와 고양이의 특성상 털의 색이라는 특성에서 겹치는 부분이 많을 거라 판단
->* Gray Scaling을 해봤지만 train:92.21%, test:50.27%로 여전히 심한 Overfitting이 났다.
-> 
