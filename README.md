@@ -10,18 +10,19 @@
 >* 첫 인공지능 프로젝트로 인한 성취감을 얻기 위함입니다.
 
 # :page_facing_up: Blog
-[Doby's Lab: Version 1 Description](https://draw-code-boy.tistory.com/488)
-[Doby's Lab: Version 2 Description](https://draw-code-boy.tistory.com/506)
+### 1️⃣ [Doby's Lab: Version 1 Description](https://draw-code-boy.tistory.com/488)
+
+### 2️⃣ [Doby's Lab: Version 2 Description](https://draw-code-boy.tistory.com/506)
 
 # :books: Version 1 (22.12.05 ~ 22.12.08)
->* Purpose: 데이터셋 가져오기 및 기본적인 Modeling
+>* <b>Purpose: 데이터셋 가져오기 및 기본적인 Modeling</b>
 ### File List
 1. ver1_cat_n_dog.ipynb
 ### Result, Test set
 <b>⭐ Loss = 0.6844, Accuracy = 55.51%</b>
 
 # :books: Version 2 (22.12.19 ~ 23.01.04)
->* Purpose: 모델의 성능 향상
+>* <b>Purpose: 모델의 성능 향상</b>
 ### File List
 1. ver2(1)_cat_n_dog_data_from_path.ipynb
 2. ver2(2)_cat_n_dog_data_preprocessing.ipynb
