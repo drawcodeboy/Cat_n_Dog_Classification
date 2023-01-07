@@ -13,13 +13,14 @@
 [Doby's Lab: Version 1 Description](https://draw-code-boy.tistory.com/488)
 
 # :books: Version 1 (22.12.05 ~ 22.12.08)
->* 메인 목적: 데이터셋 가져오기 및 기본적인 Modeling
+>* Purpose: 데이터셋 가져오기 및 기본적인 Modeling
 ### File List
 1. ver1_cat_n_dog.ipynb
 ### Result, Test set
 <b>⭐ Loss = 0.6844, Accuracy = 55.51%</b>
 
 # :books: Version 2 (22.12.19 ~ 23.01.04)
+>* Purpose: 모델의 성능 향상
 ### File List
 1. ver2(1)_cat_n_dog_data_from_path.ipynb
 2. ver2(2)_cat_n_dog_data_preprocessing.ipynb
