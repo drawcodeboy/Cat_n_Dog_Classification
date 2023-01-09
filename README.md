@@ -21,7 +21,7 @@
 ### Result, Test set
 <b>⭐ Loss = 0.6844, Accuracy = 55.51%</b>
 
-# :books: Version 2 (22.12.19 ~ 23.01.04)
+# :books: Version 2 (22.12.19 ~ 23.01.07)
 >* <b>Purpose: 모델의 성능 향상</b>
 ### File List
 1. ver2(1)_cat_n_dog_data_from_path.ipynb
